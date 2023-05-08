@@ -27,6 +27,7 @@ export default function TextForm(props) {
         newText = arr.join(" ");
 
         setText(newText)
+    }
     const handleCLearText = ()=>{
         let newText='';
         setText(newText);
